@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "361109304923",
+    "firebase_url": "https://dr-bot-app-default-rtdb.firebaseio.com",
+    "project_id": "dr-bot-app",
+    "storage_bucket": "dr-bot-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361109304923:android:2a31d979163a8a592df17e",
+        "android_client_info": {
+          "package_name": "com.example.drbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361109304923-1kaap9rpbm59kjtqlmh4poth8pqjptth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWb3RTpq9rBVL-cq_eMLldJi_rF7-KEVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361109304923-1kaap9rpbm59kjtqlmh4poth8pqjptth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
