@@ -8,6 +8,9 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="call">Contact : <a href ="tel:123456789">7359886266</a></string>
+    <string name="mail">E-Mail : <a href="mailto:kpativala920@rku.ac.in?Subject=Hello%20User">kpativala920@rku.ac.in</a>
+    </string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>

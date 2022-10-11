@@ -3,6 +3,8 @@ package com.example.drbot;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
 public class MainActivity3 extends AppCompatActivity {
 
@@ -14,5 +16,15 @@ public class MainActivity3 extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.mipmap.lol_foreground);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
+        setupHyperlink();
+    }
+
+    private void setupHyperlink() {
+        TextView linkTextView = findViewById(R.id.link);
+        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        TextView linkTextView1 = findViewById(R.id.link1);
+        linkTextView1.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
 }
